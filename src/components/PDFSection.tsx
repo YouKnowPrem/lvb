@@ -24,11 +24,11 @@ export default function PDFSection() {
               </p>
               
               <div className="flex flex-wrap gap-4">
-                <a href="/LAMPLEIGH V. BRATHWAIT.pdf" download="LvB_Case_Presentation.pdf" className="flex items-center gap-2 rounded-full bg-indigo-600 px-6 py-3 font-medium text-white transition-all hover:bg-indigo-500 hover:shadow-[0_0_20px_rgba(79,70,229,0.4)]">
+                <a href="/Presentation.pdf" download="LvB_Case_Presentation.pdf" className="flex items-center gap-2 rounded-full bg-indigo-600 px-6 py-3 font-medium text-white transition-all hover:bg-indigo-500 hover:shadow-[0_0_20px_rgba(79,70,229,0.4)]">
                   <Download size={18} />
                   Download PDF
                 </a>
-                <a href="/LAMPLEIGH V. BRATHWAIT.pdf" target="_blank" rel="noreferrer" className="flex items-center gap-2 rounded-full bg-white/5 border border-white/10 light:border-black/10 light:bg-black/5 px-6 py-3 font-medium text-white light:text-neutral-900 transition-all hover:bg-white/10 light:hover:bg-black/10">
+                <a href="/Presentation.pdf" target="_blank" rel="noreferrer" className="flex items-center gap-2 rounded-full bg-white/5 border border-white/10 light:border-black/10 light:bg-black/5 px-6 py-3 font-medium text-white light:text-neutral-900 transition-all hover:bg-white/10 light:hover:bg-black/10">
                   <ExternalLink size={18} />
                   View Fullscreen
                 </a>
@@ -37,7 +37,7 @@ export default function PDFSection() {
             
             <div className="relative h-64 w-full bg-neutral-900 light:bg-neutral-200 md:h-auto md:w-1/3">
               <iframe 
-                src="/LAMPLEIGH V. BRATHWAIT.pdf#toolbar=0" 
+                src="/Presentation.pdf#toolbar=0" 
                 className="absolute inset-0 w-full h-full border-0 z-10"
                 title="PDF Preview"
               />

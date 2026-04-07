@@ -121,7 +121,7 @@ export default function App() {
             LvB<span className="text-indigo-500">.</span>
           </div>
           <p className="text-sm text-neutral-500 dark:text-neutral-500 light:text-neutral-400">
-            © 2026 LvB Case Presentation. Built with precision.
+            © 2026 ALL Rights reserved | Made with 💖 | By Prem
           </p>
         </div>
       </footer>

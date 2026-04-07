@@ -24,14 +24,14 @@ export default function PDFSection() {
               </p>
               
               <div className="flex flex-wrap gap-4">
-                <button className="flex items-center gap-2 rounded-full bg-indigo-600 px-6 py-3 font-medium text-white transition-all hover:bg-indigo-500 hover:shadow-[0_0_20px_rgba(79,70,229,0.4)]">
+                <a href="/Presentation.pdf" download="LvB_Case_Presentation.pdf" className="flex items-center gap-2 rounded-full bg-indigo-600 px-6 py-3 font-medium text-white transition-all hover:bg-indigo-500 hover:shadow-[0_0_20px_rgba(79,70,229,0.4)]">
                   <Download size={18} />
                   Download PDF
-                </button>
-                <button className="flex items-center gap-2 rounded-full bg-white/5 border border-white/10 light:border-black/10 light:bg-black/5 px-6 py-3 font-medium text-white light:text-neutral-900 transition-all hover:bg-white/10 light:hover:bg-black/10">
+                </a>
+                <a href="/Presentation.pdf" target="_blank" rel="noreferrer" className="flex items-center gap-2 rounded-full bg-white/5 border border-white/10 light:border-black/10 light:bg-black/5 px-6 py-3 font-medium text-white light:text-neutral-900 transition-all hover:bg-white/10 light:hover:bg-black/10">
                   <ExternalLink size={18} />
                   View Fullscreen
-                </button>
+                </a>
               </div>
             </div>
             
@@ -39,7 +39,7 @@ export default function PDFSection() {
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="text-center p-6">
                   <FileText size={48} className="mx-auto mb-4 text-white/20 light:text-black/20" />
-                  <span className="text-xs font-mono text-white/40 light:text-black/40 uppercase tracking-widest">Preview Unavailable</span>
+                  <span className="text-xs font-mono text-indigo-400 uppercase tracking-widest">Waiting for PDF...</span>
                 </div>
               </div>
               {/* In a real app, you'd put an iframe or image here */}

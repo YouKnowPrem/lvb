@@ -28,7 +28,7 @@ export default function PDFSection() {
                   <Download size={18} />
                   Download PDF
                 </a>
-                <a href="/Presentation.pdf" target="_blank" rel="noreferrer" className="flex items-center gap-2 rounded-full bg-white/5 border border-white/10 light:border-black/10 light:bg-black/5 px-6 py-3 font-medium text-white light:text-neutral-900 transition-all hover:bg-white/10 light:hover:bg-black/10">
+                <a href="/LAMPLEIGH V. BRATHWAIT.pdf" target="_blank" rel="noreferrer" className="flex items-center gap-2 rounded-full bg-white/5 border border-white/10 light:border-black/10 light:bg-black/5 px-6 py-3 font-medium text-white light:text-neutral-900 transition-all hover:bg-white/10 light:hover:bg-black/10">
                   <ExternalLink size={18} />
                   View Fullscreen
                 </a>

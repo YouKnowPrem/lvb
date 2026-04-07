@@ -77,15 +77,21 @@ export default function App() {
             <a href="#presentation" className="transition-colors hover:text-white dark:hover:text-white light:hover:text-neutral-900">Presentation</a>
             <a href="#team" className="transition-colors hover:text-white dark:hover:text-white light:hover:text-neutral-900">Team</a>
           </div>
-          <div className="flex items-center gap-2 sm:gap-4">
+          <div className="flex items-center">
             <button 
               onClick={toggleTheme}
-              className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-white/10 bg-white/5 text-white transition-all hover:bg-white/10 dark:text-white light:text-neutral-900 light:border-black/10 light:bg-black/5"
+              className="relative flex h-10 w-[72px] shrink-0 items-center rounded-full border border-white/10 bg-white/5 p-1 transition-all hover:bg-white/10 light:border-black/10 light:bg-black/5"
+              aria-label="Toggle Theme"
             >
-              {isDark ? <Sun size={18} /> : <Moon size={18} />}
-            </button>
-            <button className="rounded-full shrink-0 bg-white px-4 sm:px-5 py-2 text-xs font-bold text-black transition-all hover:bg-neutral-200 active:scale-95 dark:bg-white dark:text-black light:bg-neutral-900 light:text-white">
-              CONTACT
+              <div
+                className={`absolute h-8 w-8 rounded-full transition-transform duration-300 ease-in-out ${
+                  isDark ? "translate-x-[32px] bg-white shadow-md shadow-white/20" : "translate-x-0 bg-neutral-900 shadow-md shadow-black/10"
+                }`}
+              />
+              <div className="relative z-10 flex w-full justify-between items-center px-1.5 pointer-events-none">
+                <Sun size={16} className={`transition-colors duration-300 ${!isDark ? "text-white" : "text-neutral-500 light:text-neutral-400"}`} />
+                <Moon size={16} className={`transition-colors duration-300 ${isDark ? "text-black" : "text-neutral-500 light:text-neutral-400"}`} />
+              </div>
             </button>
           </div>
         </div>

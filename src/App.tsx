@@ -11,7 +11,7 @@ import LoadingScreen from "./components/LoadingScreen";
 gsap.registerPlugin(ScrollTrigger);
 
 const TEAM_MEMBERS: TeamMember[] = [
-  { name: "Nargis", role: "Verdict Impact Analyst", image: "/Nargis.jpeg" },
+  { name: "Nargis", role: "Verdict Impact Analyst", image: "/Photos/Nargis.jpeg" },
   { name: "Nayeem", role: "Plaintiff's Counsel", image: "/Nayeem.jpeg" },
   { name: "Prem", role: "Expert Q&A Panelist", image: "/Prem.png" },
   { name: "Raghvi", role: "Presiding Judge", image: "/Raghavi.jpeg" },

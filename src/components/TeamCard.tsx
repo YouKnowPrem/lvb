@@ -4,8 +4,6 @@ import { User, ArrowUpRight } from "lucide-react";
 export interface TeamMember {
   name: string;
   role: string;
-  email: string;
-  linkedin?: string;
   image?: string;
 }
 

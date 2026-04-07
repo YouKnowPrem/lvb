@@ -99,7 +99,7 @@ export default function App() {
         <section id="team" className="py-24 px-4">
           <div className="mx-auto max-w-7xl">
             <div className="mb-16 text-center">
-              <h2 className="font-display mb-4 text-4xl font-bold text-white sm:text-5xl dark:text-white light:text-neutral-900">Our Expert Team</h2>
+              <h2 className="font-display mb-4 text-4xl font-bold text-white sm:text-5xl dark:text-white light:text-neutral-900">Our Team</h2>
               <p className="mx-auto max-w-2xl text-neutral-400 dark:text-neutral-400 light:text-neutral-500">
                 Meet the brilliant minds behind this case study. A diverse group of specialists 
                 dedicated to excellence and innovation.

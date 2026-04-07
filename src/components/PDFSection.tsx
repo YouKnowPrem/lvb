@@ -24,7 +24,7 @@ export default function PDFSection() {
               </p>
               
               <div className="flex flex-wrap gap-4">
-                <a href="/Presentation.pdf" download="LvB_Case_Presentation.pdf" className="flex items-center gap-2 rounded-full bg-indigo-600 px-6 py-3 font-medium text-white transition-all hover:bg-indigo-500 hover:shadow-[0_0_20px_rgba(79,70,229,0.4)]">
+                <a href="/LAMPLEIGH V. BRATHWAIT.pdf" download="LvB_Case_Presentation.pdf" className="flex items-center gap-2 rounded-full bg-indigo-600 px-6 py-3 font-medium text-white transition-all hover:bg-indigo-500 hover:shadow-[0_0_20px_rgba(79,70,229,0.4)]">
                   <Download size={18} />
                   Download PDF
                 </a>
@@ -36,14 +36,12 @@ export default function PDFSection() {
             </div>
             
             <div className="relative h-64 w-full bg-neutral-900 light:bg-neutral-200 md:h-auto md:w-1/3">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center p-6">
-                  <FileText size={48} className="mx-auto mb-4 text-white/20 light:text-black/20" />
-                  <span className="text-xs font-mono text-indigo-400 uppercase tracking-widest">Waiting for PDF...</span>
-                </div>
-              </div>
-              {/* In a real app, you'd put an iframe or image here */}
-              <div className="absolute inset-0 bg-gradient-to-t from-neutral-950/80 light:from-white/80 to-transparent md:bg-gradient-to-l" />
+              <iframe 
+                src="/LAMPLEIGH V. BRATHWAIT.pdf#toolbar=0" 
+                className="absolute inset-0 w-full h-full border-0 z-10"
+                title="PDF Preview"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-neutral-950/80 light:from-white/80 to-transparent md:bg-gradient-to-l z-20 pointer-events-none" />
             </div>
           </div>
         </motion.div>

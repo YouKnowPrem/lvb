@@ -25,7 +25,7 @@ export default function LoadingScreen() {
       className="fixed inset-0 z-[100] flex flex-col items-center justify-between bg-neutral-950 p-8 light:bg-neutral-50"
     >
       <div className="w-full flex justify-between text-xs font-mono tracking-widest text-white/50 light:text-black/50">
-        <span>TEAM ALPHA</span>
+        <span>LvB CASE</span>
         <span>LOADING {Math.min(progress, 100)}%</span>
       </div>
 
@@ -36,7 +36,7 @@ export default function LoadingScreen() {
           transition={{ duration: 1.5, ease: "easeOut" }}
           className="font-display text-4xl sm:text-6xl md:text-8xl font-bold tracking-tighter text-white light:text-neutral-900"
         >
-          ALPHA<span className="text-indigo-500">.</span>
+          LvB<span className="text-indigo-500">.</span>
         </motion.h1>
       </div>
 

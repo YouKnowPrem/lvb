@@ -70,7 +70,7 @@ export default function App() {
       <nav className="fixed top-0 z-50 w-full px-4 py-6">
         <div className="mx-auto flex max-w-7xl items-center justify-between rounded-full border border-white/10 bg-black/20 px-6 py-3 backdrop-blur-xl dark:bg-black/20 light:bg-white/40">
           <div className="font-display text-xl font-bold tracking-tighter text-white dark:text-white light:text-neutral-900">
-            ALPHA<span className="text-indigo-500">.</span>
+            LvB<span className="text-indigo-500">.</span>
           </div>
           <div className="hidden space-x-8 text-sm font-medium text-white/60 md:flex dark:text-white/60 light:text-neutral-600">
             <a href="#" className="transition-colors hover:text-white dark:hover:text-white light:hover:text-neutral-900">Home</a>
@@ -118,10 +118,10 @@ export default function App() {
       <footer className="border-t border-white/5 py-12 px-4 dark:border-white/5 light:border-black/5">
         <div className="mx-auto max-w-7xl text-center">
           <div className="font-display mb-6 text-2xl font-bold text-white dark:text-white light:text-neutral-900">
-            ALPHA<span className="text-indigo-500">.</span>
+            LvB<span className="text-indigo-500">.</span>
           </div>
           <p className="text-sm text-neutral-500 dark:text-neutral-500 light:text-neutral-400">
-            © 2026 Team Alpha Presentation. Built with precision.
+            © 2026 LvB Case Presentation. Built with precision.
           </p>
         </div>
       </footer>

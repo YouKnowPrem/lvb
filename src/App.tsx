@@ -11,15 +11,15 @@ import LoadingScreen from "./components/LoadingScreen";
 gsap.registerPlugin(ScrollTrigger);
 
 const TEAM_MEMBERS: TeamMember[] = [
+  { name: "Nargis", role: "Verdict Impact Analyst", email: "nargis@example.com", linkedin: "#" },
+  { name: "Nayeem", role: "Plaintiff's Counsel", email: "nayeem@example.com", linkedin: "#", image: "/Nayeem.jpeg" },
+  { name: "Prem", role: "Expert Q&A Panelist", email: "prem@example.com", linkedin: "#", image: "/Prem.png" },
+  { name: "Raghvi", role: "Presiding Judge", email: "raghavi@example.com", linkedin: "#", image: "/Raghavi.jpeg" },
   { name: "Sanjeevani", role: "Anchor & Moderator", email: "sanjeevani@example.com", linkedin: "#", image: "/Sanjeevani.jpeg" },
   { name: "Shariq", role: "Legal Precedent Analyst", email: "shariq@example.com", linkedin: "#" },
-  { name: "Subha", role: "Core Issues Analyst", email: "subha@example.com", linkedin: "#" },
   { name: "Sonali", role: "Case Story Narrator", email: "sonali@example.com", linkedin: "#", image: "/Sonali.jpeg" },
-  { name: "Nayeem", role: "Plaintiff's Counsel", email: "nayeem@example.com", linkedin: "#", image: "/Nayeem.jpeg" },
+  { name: "Subha", role: "Core Issues Analyst", email: "subha@example.com", linkedin: "#" },
   { name: "Tanyia", role: "Defense Counsel", email: "tanya@example.com", linkedin: "#", image: "/Tanya.jpeg" },
-  { name: "Raghvi", role: "Presiding Judge", email: "raghavi@example.com", linkedin: "#", image: "/Raghavi.jpeg" },
-  { name: "Nargis", role: "Verdict Impact Analyst", email: "nargis@example.com", linkedin: "#" },
-  { name: "Prem", role: "Expert Q&A Panelist", email: "prem@example.com", linkedin: "#", image: "/Prem.png" },
 ];
 
 export default function App() {

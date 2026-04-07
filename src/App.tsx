@@ -13,7 +13,7 @@ gsap.registerPlugin(ScrollTrigger);
 const TEAM_MEMBERS: TeamMember[] = [
   { name: "Nargis", role: "Verdict Impact Analyst", image: "/Nargis.jpeg" },
   { name: "Nayeem", role: "Plaintiff's Counsel", image: "/Nayeem.jpeg" },
-  { name: "Prem", role: "Expert Q&A Panelist", image: "/Prem.png" },
+  { name: "Prem", role: "Researcher & Q&A Panelist", image: "/Prem.png" },
   { name: "Raghvi", role: "Presiding Judge", image: "/Raghavi.jpeg" },
   { name: "Sanjeevani", role: "Anchor & Moderator", image: "/Sanjeevani.jpeg" },
   { name: "Shariq", role: "Legal Precedent Analyst", image: "/Shariq.jpeg" },

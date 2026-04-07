@@ -49,16 +49,16 @@ export default function Hero() {
         ref={titleRef}
         className="font-display max-w-4xl text-5xl font-bold tracking-tight text-white light:text-neutral-900 sm:text-7xl md:text-8xl"
       >
-        Case Study <br />
-        <span className="text-gradient">Excellence.</span>
+        LAMPLEIOH V. <br />
+        <span className="text-gradient">BRATHWAIT.</span>
       </h1>
 
       <p
         ref={subtitleRef}
         className="mt-8 max-w-2xl text-lg text-neutral-400 light:text-neutral-600 sm:text-xl"
       >
-        A deep dive into strategic innovation and market disruption. 
-        Presented by Team Alpha at the 2026 Global Summit.
+        A deep dive into strategic innovation and legal precedents. 
+        Presented by the Legal Team.
       </p>
 
       <div className="mt-12 flex flex-col sm:flex-row gap-4">

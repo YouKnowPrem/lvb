@@ -17,8 +17,8 @@ const TEAM_MEMBERS: TeamMember[] = [
   { name: "Raghvi", role: "Presiding Judge", image: "/Raghavi.jpeg" },
   { name: "Sanjeevani", role: "Anchor & Moderator", image: "/Sanjeevani.jpeg" },
   { name: "Shariq", role: "Legal Precedent Analyst", image: "/Shariq.jpeg" },
-  { name: "Sonali", role: "Case Story Narrator", image: "/Sonali.jpeg" },
-  { name: "Subha", role: "Core Issues Analyst" },
+  { name: "Sonali", role: "Case Story Narrator", image:"/Sonali.jpeg" },
+  { name: "Subha", role: "Core Issues Analyst", image:"/Subha.jpeg" },
   { name: "Tanyia", role: "Defense Counsel", image: "/Tanya.jpeg" },
 ];
 

@@ -29,6 +29,12 @@ export default function PDFSection() {
                   Download PDF
                 </a>
               </div>
+              <div className="flex flex-wrap gap-4">
+                <a href="/PPT.pdf" download="PPT.pdf" className="flex items-center gap-2 rounded-full bg-indigo-600 px-6 py-3 font-medium text-white transition-all hover:bg-indigo-500 hover:shadow-[0_0_20px_rgba(79,70,229,0.4)]">
+                  <Download size={18} />
+                  Download PPT
+                </a>
+              </div>
             </div>
           </div>
         </motion.div>
